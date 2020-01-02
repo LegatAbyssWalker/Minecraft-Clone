@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Utilities">
+      <UniqueIdentifier>{1ce9b59a-f15f-4ebc-828e-11767ca97a14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Geometry">
+      <UniqueIdentifier>{de58a603-8a91-4502-909a-ecbfc5fe9a95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Player">
+      <UniqueIdentifier>{2dd542c1-7b6a-45f4-a0c8-3d8a7ac7a03a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\World">
+      <UniqueIdentifier>{a24d8ef4-1819-4e88-9528-609e9f7df393}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\World\Generators">
+      <UniqueIdentifier>{1e4cdc26-0a37-47de-92db-2c86706db2a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\World\Biomes">
+      <UniqueIdentifier>{9caecdd6-aece-464d-94c4-5f63fe5bdf2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\World\Generators\Entities">
+      <UniqueIdentifier>{1eb9929d-516a-4e24-a441-ac7498dd6f4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\States">
+      <UniqueIdentifier>{3b1376db-0f22-4189-ae40-504b4055adf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\States\Logic">
+      <UniqueIdentifier>{97f2c48d-fe65-4779-969e-627ba9b9657e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shaders">
+      <UniqueIdentifier>{c580dd5b-b059-48b9-9889-e0e2d375b091}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Textures">
+      <UniqueIdentifier>{e9d05c00-eb15-4395-87d8-0ebe2699918f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\States\GameStates">
+      <UniqueIdentifier>{14802ebe-56d9-4e62-97d6-adbeaccb1c50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mesh">
+      <UniqueIdentifier>{22ad4640-f8a2-494c-a7a4-3cde4476e347}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BiomeGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Chunk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GLWindow.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Frustum.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Plane.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="RayCasting.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Source Files\World</Filter>
+    </ClCompile>
+    <ClCompile Include="MountainBiome.cpp">
+      <Filter>Source Files\World\Biomes</Filter>
+    </ClCompile>
+    <ClCompile Include="ForestBiome.cpp">
+      <Filter>Source Files\World\Biomes</Filter>
+    </ClCompile>
+    <ClCompile Include="DesertBiome.cpp">
+      <Filter>Source Files\World\Biomes</Filter>
+    </ClCompile>
+    <ClCompile Include="Biome.cpp">
+      <Filter>Source Files\World\Biomes</Filter>
+    </ClCompile>
+    <ClCompile Include="NoiseGenerator.cpp">
+      <Filter>Source Files\World\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="PlantGenerator.cpp">
+      <Filter>Source Files\World\Generators\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeGenerator.cpp">
+      <Filter>Source Files\World\Generators\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="CactusGenerator.cpp">
+      <Filter>Source Files\World\Generators\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeGenerator.cpp">
+      <Filter>Source Files\World\Generators\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayingState.cpp">
+      <Filter>Source Files\States\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMachine.cpp">
+      <Filter>Source Files\States\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>Source Files\States\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Program.cpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BiomeGenerator.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Chunk.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLWindow.h">
+      <Filter>Source Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Frustum.h">
+      <Filter>Source Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>Source Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="RayCasting.h">
+      <Filter>Source Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Source Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Source Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="MountainBiome.h">
+      <Filter>Source Files\World\Biomes</Filter>
+    </ClInclude>
+    <ClInclude Include="ForestBiome.h">
+      <Filter>Source Files\World\Biomes</Filter>
+    </ClInclude>
+    <ClInclude Include="DesertBiome.h">
+      <Filter>Source Files\World\Biomes</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Source Files\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Biome.h">
+      <Filter>Source Files\World\Biomes</Filter>
+    </ClInclude>
+    <ClInclude Include="NoiseGenerator.h">
+      <Filter>Source Files\World\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="PlantGenerator.h">
+      <Filter>Source Files\World\Generators\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeGenerator.h">
+      <Filter>Source Files\World\Generators\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="CactusGenerator.h">
+      <Filter>Source Files\World\Generators\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="FileLocations.h">
+      <Filter>Source Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="MoreInfo.h">
+      <Filter>Source Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeGenerator.h">
+      <Filter>Source Files\World\Generators\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayingState.h">
+      <Filter>Source Files\States\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine.h">
+      <Filter>Source Files\States\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Source Files\States\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Source Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Source Files\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Source Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Program.h">
+      <Filter>Source Files\Mesh</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\basicShader.frag">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="Shaders\basicShader.vert">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="Shaders\terrainShader.vert">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="Shaders\terrainShader.frag">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
